@@ -6,8 +6,8 @@ import { useAuth } from '@/contexts/AuthContext';
 import { ApiError } from '@/types/api';
 
 const SignInPage: React.FC = () => {
-  const [email, setEmail] = useState('admin@example.com');
-  const [password, setPassword] = useState('admin123');
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState('');
   
